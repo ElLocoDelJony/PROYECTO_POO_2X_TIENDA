@@ -12,8 +12,11 @@ public class VerificacionRequisitos {
     private JCheckBox chkPsicosensometrico;
     private JCheckBox chkTeorico;
     private JCheckBox chkPago;
-    private JTextArea txtObservaciones;
     private JButton btnRechazar;
     private JButton btnAprobar;
     private JPanel pnlVerificacion;
+    private JLabel datosPersonalesLabel;
+    private JLabel resultadoExamenesLabel;
+    private JLabel emisionEntregaLabel;
+    private JTextField txtObservaciones;
 }

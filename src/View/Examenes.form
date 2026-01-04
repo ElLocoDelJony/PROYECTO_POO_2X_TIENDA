@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="View.Examenes">
+  <grid id="27dc6" binding="pnlExamenes" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1538" height="729"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="75a5d" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="40" left="25" bottom="30" right="20"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="260" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14277082"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="7a112" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI" size="60"/>
+              <foreground color="-1"/>
+              <text value="🎓"/>
+            </properties>
+          </component>
+          <component id="81a77" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI" size="22" style="1"/>
+              <foreground color="-1"/>
+              <text value="CALIFICACIONES"/>
+            </properties>
+          </component>
+          <grid id="64781" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="15">
+            <margin top="40" left="10" bottom="0" right="0"/>
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14277082"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="1d456" class="javax.swing.JLabel" binding="datosPersonalesLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI" size="15"/>
+                  <foreground color="-8355712"/>
+                  <text value="Datos Personales"/>
+                </properties>
+              </component>
+              <component id="72575" class="javax.swing.JLabel" binding="validacionDocumentoLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI" size="15"/>
+                  <foreground color="-8355712"/>
+                  <text value="Validación Documentos"/>
+                </properties>
+              </component>
+              <component id="91bdf" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI" size="15" style="1"/>
+                  <foreground color="-1"/>
+                  <text value="Resultados Exámenes"/>
+                </properties>
+              </component>
+              <component id="c288d" class="javax.swing.JLabel" binding="emisionEntregaLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI" size="15"/>
+                  <foreground color="-8355712"/>
+                  <text value="Emisión y Entrega"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <vspacer id="f5f8e">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="0" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="3f5ce" class="javax.swing.JButton" binding="btnRegresar">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-12566464"/>
+              <foreground color="-1"/>
+              <text value="⬅ Regresar al Menú"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="5d0fb" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="40" left="50" bottom="40" right="50"/>
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="7c2" layout-manager="GridLayoutManager" row-count="15" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="20" vgap="12">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="e0f87" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI" size="20" style="1"/>
+                  <foreground color="-14277082"/>
+                  <text value="Registro de Notas y Promedios"/>
+                </properties>
+              </component>
+              <component id="76eea" class="javax.swing.JSeparator">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="305ca" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font style="1"/>
+                  <text value="Buscar Candidato (Cédula):"/>
+                </properties>
+              </component>
+              <component id="74638" class="javax.swing.JTextField" binding="txtBuscarCandidato">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="35"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="98525" class="javax.swing.JButton">
+                <constraints>
+                  <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="100" height="35"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="🔍 Buscar"/>
+                </properties>
+              </component>
+              <component id="4edec" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI" size="14" style="2"/>
+                  <foreground color="-10066330"/>
+                  <text value="Candidato: ..."/>
+                </properties>
+              </component>
+              <component id="d381a" class="javax.swing.JSeparator">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="51f69" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="14" style="1"/>
+                  <foreground color="-14277082"/>
+                  <text value="1. Examen Psicosensométrico"/>
+                </properties>
+              </component>
+              <component id="38e14" class="javax.swing.JCheckBox" binding="chkVisualAuditivo">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <font size="14"/>
+                  <text value="APROBADO (Visual y Auditivo)"/>
+                </properties>
+              </component>
+              <component id="9686d" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="14" style="1"/>
+                  <foreground color="-14277082"/>
+                  <text value="2. Examen Teórico (Max. 20)"/>
+                </properties>
+              </component>
+              <component id="d6919" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="8" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="14" style="1"/>
+                  <foreground color="-14277082"/>
+                  <text value="3. Examen Práctico (Max. 20)"/>
+                </properties>
+              </component>
+              <component id="e2a5f" class="javax.swing.JTextField" binding="txtPractico">
+                <constraints>
+                  <grid row="9" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="568" height="40"/>
+                    <maximum-size width="568" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font size="16" style="1"/>
+                  <horizontalAlignment value="0"/>
+                </properties>
+              </component>
+              <grid id="da41f" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="10" left="10" bottom="10" right="10"/>
+                <constraints>
+                  <grid row="10" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1118482"/>
+                </properties>
+                <border type="line"/>
+                <children>
+                  <component id="2e601" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="18" style="1"/>
+                      <foreground color="-14277082"/>
+                      <text value="ESTADO FINAL: PENDIENTE"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <component id="12b4c" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="11" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font style="1"/>
+                  <text value="Observaciones del Evaluador:"/>
+                </properties>
+              </component>
+              <grid id="137c9" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="10" vgap="-1">
+                <margin top="20" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="12" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <hspacer id="fc364">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                  <component id="30d1" class="javax.swing.JButton">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="180" height="40"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-14277082"/>
+                      <foreground color="-1"/>
+                      <text value="CANCELAR"/>
+                    </properties>
+                  </component>
+                  <component id="2ead9" class="javax.swing.JButton">
+                    <constraints>
+                      <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="180" height="40"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-14277082"/>
+                      <font style="1"/>
+                      <foreground color="-1"/>
+                      <text value="GUARDAR NOTAS"/>
+                    </properties>
+                  </component>
+                  <component id="7670d" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="200"/>
+                        <maximum-size width="1200" height="800"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                  </component>
+                </children>
+              </grid>
+              <vspacer id="1693a">
+                <constraints>
+                  <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="0" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="6a813" class="javax.swing.JTextField" binding="txtTeorico">
+                <constraints>
+                  <grid row="9" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="568" height="40"/>
+                    <maximum-size width="568" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font size="16" style="1"/>
+                  <horizontalAlignment value="0"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
