@@ -16,7 +16,6 @@ public class VerificacionRequisitos {
     private JButton btnAprobar;
     private JPanel pnlVerificacion;
     private JLabel datosPersonalesLabel;
-    private JLabel resultadoExamenesLabel;
-    private JLabel emisionEntregaLabel;
     private JTextField txtObservaciones;
+    private JLabel verificacionExamenesLabel;
 }

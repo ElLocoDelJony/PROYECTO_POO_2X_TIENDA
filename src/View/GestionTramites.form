@@ -3,7 +3,7 @@
   <grid id="27dc6" binding="pnlTramites" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="20" y="20" width="966" height="437"/>
+      <xy x="20" y="20" width="966" height="509"/>
     </constraints>
     <properties>
       <background color="-1"/>
@@ -42,7 +42,7 @@
               <text value="TRÁMITES"/>
             </properties>
           </component>
-          <grid id="ab130" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="15">
+          <grid id="ab130" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="15">
             <margin top="40" left="10" bottom="0" right="0"/>
             <constraints>
               <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
@@ -52,44 +52,24 @@
             </properties>
             <border type="none"/>
             <children>
-              <component id="5a2d8" class="javax.swing.JLabel" binding="datosPersonalesLabel">
+              <component id="3137d" class="javax.swing.JLabel" binding="emisionEntregaLabel">
                 <constraints>
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                </constraints>
-                <properties>
-                  <font name="Segoe UI" size="15"/>
-                  <foreground color="-8355712"/>
-                  <text value="Datos Personales"/>
-                </properties>
-              </component>
-              <component id="a6d64" class="javax.swing.JLabel" binding="validacionDocumentoLabel">
-                <constraints>
-                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                </constraints>
-                <properties>
-                  <font name="Segoe UI" size="15"/>
-                  <foreground color="-8355712"/>
-                  <text value="Validación Documentos"/>
-                </properties>
-              </component>
-              <component id="bedb8" class="javax.swing.JLabel" binding="resultadoExamenesLabel">
-                <constraints>
-                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                </constraints>
-                <properties>
-                  <font name="Segoe UI" size="15"/>
-                  <foreground color="-8355712"/>
-                  <text value="Resultados Exámenes"/>
-                </properties>
-              </component>
-              <component id="3137d" class="javax.swing.JLabel">
-                <constraints>
-                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
                   <font name="Segoe UI" size="15" style="1"/>
                   <foreground color="-1"/>
                   <text value="Emisión y Entrega"/>
+                </properties>
+              </component>
+              <component id="7e911" class="javax.swing.JLabel" binding="detalleTramiteLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI" size="15" style="0"/>
+                  <foreground color="-8355712"/>
+                  <text value="Detalle Tramites"/>
                 </properties>
               </component>
             </children>
@@ -144,7 +124,9 @@
               </component>
               <component id="aa48e" class="javax.swing.JComboBox" binding="cmbFiltroEstado">
                 <constraints>
-                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="35"/>
+                  </grid>
                 </constraints>
                 <properties>
                   <model>
@@ -158,7 +140,9 @@
               </component>
               <component id="86bfd" class="javax.swing.JTextField" binding="txtBuscar">
                 <constraints>
-                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="35"/>
+                  </grid>
                 </constraints>
                 <properties>
                   <text value=""/>
@@ -167,7 +151,9 @@
               </component>
               <component id="8e858" class="javax.swing.JButton" binding="btnFiltrar">
                 <constraints>
-                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="35"/>
+                  </grid>
                 </constraints>
                 <properties>
                   <background color="-14277082"/>
@@ -175,7 +161,7 @@
                   <text value="🔍 Buscar"/>
                 </properties>
               </component>
-              <scrollpane id="7d04d">
+              <scrollpane id="7d04d" binding="tblInfo">
                 <constraints>
                   <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
                 </constraints>

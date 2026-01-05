@@ -16,6 +16,5 @@ public class Solicitantes {
     private JButton btnRegresar;
     private JPanel pnlSolicitante;
     private JLabel validacionDocumentoLabel;
-    private JLabel resultadosExamenesLabel;
-    private JLabel emisionEntregaLabel;
+    private JLabel datosPersonalesLabel;
 }

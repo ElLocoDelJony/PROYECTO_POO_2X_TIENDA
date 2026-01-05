@@ -21,4 +21,5 @@ public class Menu {
     private JLabel lblStat2;
     private JLabel lblStat3;
     private JLabel lblStat4;
+    private JButton btnReportes;
 }
